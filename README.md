@@ -1,5 +1,4 @@
-# FlowCognition by suvilab.com
-
+# FlowCognition 
 Şeffaf plak dental CAD sistemleri için geliştirilen özel yazılım modülleri.
 
 ## Modüller
