@@ -1,0 +1,38 @@
+{
+  "kimlik":"suvi-arastirma-1", "surum":"1.0.0", "klinik_dogrulama":false,
+  "telif":"2026 FlowCognition by suvilab.com",
+  "kanit":{"tur":"muhendislik_politikasi","guven":"dogrulanmadi","kaynaklar":["M01","M02","M03"]},
+  "aciklama":"Üç eşik, ağırlıklar ve katsayılar başlangıç mühendislik politikasıdır; biyolojik sabit veya hasta başarı tahmini değildir.",
+  "limitler":{
+    "md_mm":{"tercih":0.15,"uyari":0.20,"azami":0.25,"birim":"mm","kaynaklar":["M01"]},
+    "bl_mm":{"tercih":0.15,"uyari":0.20,"azami":0.25,"birim":"mm","kaynaklar":["M01"]},
+    "intruzyon":{"tercih":0.10,"uyari":0.15,"azami":0.20,"birim":"mm","kaynaklar":["M03"]},
+    "ekstruzyon":{"tercih":0.10,"uyari":0.15,"azami":0.20,"birim":"mm","kaynaklar":["M04"]},
+    "rotasyon_derece":{"tercih":1.0,"uyari":1.5,"azami":2.0,"birim":"derece","kaynaklar":["M01","M02"]},
+    "tip_derece":{"tercih":1.0,"uyari":1.5,"azami":2.0,"birim":"derece","kaynaklar":["M01"]},
+    "tork_derece":{"tercih":0.5,"uyari":0.75,"azami":1.0,"birim":"derece","kaynaklar":["M01"]}
+  },
+  "grup_rotasyon":{"keser":1.0,"kanin":0.85,"premolar":0.90,"molar":1.0},
+  "yon_katsayilari":{"mesial":1.0,"distal":1.0,"bukkal":1.0,"lingual":1.0,"intruzyon":1.0,"ekstruzyon":1.0,"pozitif_aci":1.0,"negatif_aci":1.0},
+  "degistiriciler":{"atasmansiz_rotasyon":0.70,"atasmansiz_tork":0.80,"atasmansiz_ekstruzyon":0.80,"buyuk_rotasyon":0.80,"buyuk_rotasyon_esigi":15.0,"dar_temas":0.80,"azalmis_destek":0.70},
+  "agirliklar":{"oteleme":1.0,"rotasyon":1.2,"tip":1.1,"tork":1.5,"intruzyon":1.4,"ekstruzyon":1.5},
+  "eslesimler":[
+    {"cift":["oteleme","rotasyon"],"katsayi":1.1},
+    {"cift":["oteleme","tip"],"katsayi":1.1},
+    {"cift":["oteleme","tork"],"katsayi":1.2},
+    {"cift":["oteleme","intruzyon"],"katsayi":1.1},
+    {"cift":["oteleme","ekstruzyon"],"katsayi":1.2},
+    {"cift":["rotasyon","tip"],"katsayi":1.2},
+    {"cift":["rotasyon","tork"],"katsayi":1.3},
+    {"cift":["rotasyon","intruzyon"],"katsayi":1.2},
+    {"cift":["rotasyon","ekstruzyon"],"katsayi":1.3},
+    {"cift":["tip","tork"],"katsayi":1.3},
+    {"cift":["tip","intruzyon"],"katsayi":1.2},
+    {"cift":["tip","ekstruzyon"],"katsayi":1.2},
+    {"cift":["tork","intruzyon"],"katsayi":1.4},
+    {"cift":["tork","ekstruzyon"],"katsayi":1.4},
+    {"cift":["intruzyon","ekstruzyon"],"katsayi":1.0}
+  ],
+  "yuk_kabul":1.0,"yuk_uyari":1.25,"dogrusal_azami_mm":0.25,
+  "en_fazla_yeniden_deneme":8,"kucultme_orani":0.5
+}

@@ -1,0 +1,388 @@
+{
+  "type": "object",
+  "properties": {
+    "surum": {
+      "const": "1.0"
+    },
+    "vaka_kimligi": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "\\S"
+    },
+    "koordinat": {
+      "const": "suvi_yerel_v1"
+    },
+    "geometri_revizyonu": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "\\S"
+    },
+    "tam_ark": {
+      "type": "boolean"
+    },
+    "ankraj": {
+      "type": "string",
+      "enum": [
+        "uzman_degerlendirdi",
+        "yetersiz",
+        "bilinmiyor"
+      ]
+    },
+    "strateji": {
+      "type": "string",
+      "enum": [
+        "paralel",
+        "distal_yuzde50"
+      ]
+    },
+    "azami_asama": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500
+    },
+    "disler": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "properties": {
+          "fdi": {
+            "type": "integer",
+            "enum": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48
+            ]
+          },
+          "hareket": {
+            "type": "object",
+            "properties": {
+              "md_mm": {
+                "type": "number",
+                "minimum": -30,
+                "maximum": 30
+              },
+              "bl_mm": {
+                "type": "number",
+                "minimum": -30,
+                "maximum": 30
+              },
+              "ie_mm": {
+                "type": "number",
+                "minimum": -30,
+                "maximum": 30
+              },
+              "rotasyon_derece": {
+                "type": "number",
+                "minimum": -179,
+                "maximum": 179
+              },
+              "tip_derece": {
+                "type": "number",
+                "minimum": -179,
+                "maximum": 179
+              },
+              "tork_derece": {
+                "type": "number",
+                "minimum": -179,
+                "maximum": 179
+              }
+            },
+            "required": [
+              "md_mm",
+              "bl_mm",
+              "ie_mm",
+              "rotasyon_derece",
+              "tip_derece",
+              "tork_derece"
+            ],
+            "additionalProperties": false
+          },
+          "atasman": {
+            "type": "string",
+            "enum": [
+              "yok",
+              "planli",
+              "bilinmiyor"
+            ]
+          },
+          "periodontal": {
+            "type": "string",
+            "enum": [
+              "normal",
+              "azalmis",
+              "aktif_hastalik",
+              "bilinmiyor"
+            ]
+          },
+          "kok": {
+            "type": "string",
+            "enum": [
+              "uygun",
+              "riskli",
+              "bilinmiyor"
+            ]
+          },
+          "komsu_temas": {
+            "type": "string",
+            "enum": [
+              "uygun",
+              "dar",
+              "riskli",
+              "bilinmiyor"
+            ]
+          },
+          "okluzal_temas": {
+            "type": "string",
+            "enum": [
+              "uygun",
+              "riskli",
+              "bilinmiyor"
+            ]
+          },
+          "destek_disleri": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "integer",
+              "enum": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ]
+            }
+          },
+          "kilitli": {
+            "type": "boolean"
+          },
+          "donusum": {
+            "type": "object",
+            "properties": {
+              "baslangic": {
+                "type": "object",
+                "properties": {
+                  "konum_mm": {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                      "type": "number",
+                      "minimum": -1000000.0,
+                      "maximum": 1000000.0
+                    }
+                  },
+                  "quaternion": {
+                    "type": "array",
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "number",
+                      "minimum": -1000000.0,
+                      "maximum": 1000000.0
+                    }
+                  }
+                },
+                "required": [
+                  "konum_mm",
+                  "quaternion"
+                ],
+                "additionalProperties": false
+              },
+              "hedef": {
+                "type": "object",
+                "properties": {
+                  "konum_mm": {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                      "type": "number",
+                      "minimum": -1000000.0,
+                      "maximum": 1000000.0
+                    }
+                  },
+                  "quaternion": {
+                    "type": "array",
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "number",
+                      "minimum": -1000000.0,
+                      "maximum": 1000000.0
+                    }
+                  }
+                },
+                "required": [
+                  "konum_mm",
+                  "quaternion"
+                ],
+                "additionalProperties": false
+              },
+              "cerceve_quaternion": {
+                "type": "array",
+                "minItems": 4,
+                "maxItems": 4,
+                "items": {
+                  "type": "number",
+                  "minimum": -1000000.0,
+                  "maximum": 1000000.0
+                }
+              },
+              "klinik_isaretler": {
+                "type": "object",
+                "properties": {
+                  "md_mm": {
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      1
+                    ]
+                  },
+                  "bl_mm": {
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      1
+                    ]
+                  },
+                  "ie_mm": {
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      1
+                    ]
+                  },
+                  "rotasyon_derece": {
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      1
+                    ]
+                  },
+                  "tip_derece": {
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      1
+                    ]
+                  },
+                  "tork_derece": {
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      1
+                    ]
+                  }
+                },
+                "required": [
+                  "md_mm",
+                  "bl_mm",
+                  "ie_mm",
+                  "rotasyon_derece",
+                  "tip_derece",
+                  "tork_derece"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "baslangic",
+              "hedef",
+              "cerceve_quaternion",
+              "klinik_isaretler"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "fdi",
+          "hareket",
+          "atasman",
+          "periodontal",
+          "kok",
+          "komsu_temas",
+          "okluzal_temas",
+          "destek_disleri",
+          "kilitli"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "surum",
+    "vaka_kimligi",
+    "koordinat",
+    "geometri_revizyonu",
+    "tam_ark",
+    "ankraj",
+    "strateji",
+    "azami_asama",
+    "disler"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Suvi Flow hareket bütçesi isteği",
+  "$comment": "FDI tekilliği, tek çene, destek referansları, quaternion normu, dönme normu ve dönüşüm/hareket tutarlılığı çalışma anında ayrıca doğrulanır. © 2026 FlowCognition by suvilab.com"
+}

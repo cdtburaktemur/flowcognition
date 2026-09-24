@@ -8,3 +8,4 @@ dist/
 sonuclar/
 .env
 *.log
+movement-budget-solver/ornek_sonuc.json

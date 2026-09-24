@@ -1,0 +1,267 @@
+{
+  "surum": "1.0",
+  "vaka_kimligi": "sentetik-kanin-01",
+  "koordinat": "suvi_yerel_v1",
+  "geometri_revizyonu": "sentetik-geometri-1",
+  "tam_ark": true,
+  "ankraj": "uzman_degerlendirdi",
+  "strateji": "paralel",
+  "azami_asama": 200,
+  "disler": [
+    {
+      "fdi": 11,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 12,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 13,
+      "hareket": {
+        "md_mm": -2.8,
+        "bl_mm": 0.65,
+        "ie_mm": 0.4,
+        "rotasyon_derece": 17.5,
+        "tip_derece": 4.2,
+        "tork_derece": -6.8
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [
+        16,
+        26
+      ],
+      "kilitli": false
+    },
+    {
+      "fdi": 14,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 15,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 16,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 17,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 21,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 22,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 23,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 24,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 25,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 26,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    },
+    {
+      "fdi": 27,
+      "hareket": {
+        "md_mm": 0,
+        "bl_mm": 0,
+        "ie_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0
+      },
+      "atasman": "yok",
+      "periodontal": "normal",
+      "kok": "uygun",
+      "komsu_temas": "uygun",
+      "okluzal_temas": "uygun",
+      "destek_disleri": [],
+      "kilitli": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# © 2026 FlowCognition by suvilab.com — Tüm hakları saklıdır.
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "suvi-movement-budget-solver"
+version = "0.1.0"
+description = "Suvi Flow için kaynakları izlenebilir hareket bütçesi ve aşamalandırma motoru"
+authors = [{name = "Suvilab"}]
+requires-python = ">=3.11"
+license = "LicenseRef-Ozel-Yazilim"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.urls]
+"Kurumsal" = "https://suvilab.com"
+
+[project.scripts]
+hareket-butcesi = "hareket_butcesi.komut:calistir"
+
+[tool.setuptools.packages.find]
+include = ["hareket_butcesi*"]
+
+[tool.setuptools.package-data]
+hareket_butcesi = ["veri/*.json", "arayuz/*"]
