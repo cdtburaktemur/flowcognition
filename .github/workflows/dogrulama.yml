@@ -4,6 +4,9 @@ permissions:
   contents: read
 jobs:
   denetim:
+    defaults:
+      run:
+        working-directory: combined-movement-reasoning
     strategy:
       matrix:
         isletim: [ubuntu-latest, windows-latest]

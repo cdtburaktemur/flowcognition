@@ -2,6 +2,9 @@
 
 ## Yazılım denetimleri
 
+Komutları depo kökünden `cd combined-movement-reasoning` ile geçilen modül
+klasöründe çalıştırın. GitHub iş akışı da bu çalışma dizinini kullanır.
+
 `python -m unittest discover -s testler -v` ile çekirdek ve gerçek yerel HTTP
 soketi üzerinden sözleşme testleri çalıştırılır. Testler; on çiftin kapsamı,
 çoklu hareket, yön ve diş bağlamı, eksik veri, risk önceliği, pasif ankraj dişleri,

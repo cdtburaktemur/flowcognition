@@ -2,6 +2,9 @@
 
 ## Bağlantı seçenekleri
 
+Bu belgedeki komutlar ve göreli dosya yolları `combined-movement-reasoning/`
+klasörünü temel alır. Depo kökünden `cd combined-movement-reasoning` ile geçin.
+
 Python içinde ağ olmadan:
 
 ```python
