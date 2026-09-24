@@ -1,0 +1,12 @@
+[
+  {"hareketler":["oteleme","rotasyon"],"durum":"uzman_incelemesi","gerekce":"Translasyon ve rotasyon birlikte değerlendirilmeli; üst molar distalizasyonu dışındaki dişlere doğrudan genellenemez.","kanit":"dolayli_klinik","kaynaklar":["K05"]},
+  {"hareketler":["oteleme","tip"],"durum":"uzman_incelemesi","gerekce":"Kron hareketi gövdesel translasyon sanılmamalı; hedef kök ve kron konumları birlikte doğrulanmalı.","kanit":"biyomekanik_cikarim","kaynaklar":["K02","K06"]},
+  {"hareketler":["oteleme","tork"],"durum":"uzman_incelemesi","gerekce":"Kök kontrolü için eşzamanlı açı değişimi değerlendirilebilir; yön, dönme merkezi ve ankraj modele özgüdür.","kanit":"dolayli_sonlu_eleman","kaynaklar":["K06","K07"]},
+  {"hareketler":["oteleme","intruzyon"],"durum":"uzman_incelemesi","gerekce":"Retraksiyon ile intrüzyon etkileşimi oran ve ark bağlamına bağlıdır; daha fazla intrüzyon otomatik iyileşme sağlamaz.","kanit":"sonlu_eleman","kaynaklar":["K06","K07","K09"]},
+  {"hareketler":["rotasyon","tip"],"durum":"uzman_incelemesi","gerekce":"Rotasyonun istenmeyen devrilme bileşeni olabilir; planlanan tip bu yan etkiyle karıştırılmamalı.","kanit":"dolayli_sonlu_eleman","kaynaklar":["K03","K08"]},
+  {"hareketler":["rotasyon","tork"],"durum":"ayirma_degerlendirilmeli","gerekce":"İki açısal hedefin kök kontrolü ve plak tutuculuğu gereksinimi birlikte değerlendirilmelidir; ayırma ihtiyat politikasıdır.","kanit":"muhendislik_ihtiyati","kaynaklar":["K01","K03"]},
+  {"hareketler":["rotasyon","intruzyon"],"durum":"uzman_incelemesi","gerekce":"Rotasyon sırasında görülen istenmeyen intrüzyon, planlı intrüzyonla klinik sinerji kanıtı değildir.","kanit":"dolayli_sonlu_eleman","kaynaklar":["K03","K08"]},
+  {"hareketler":["tip","tork"],"durum":"uzman_incelemesi","gerekce":"Farklı eksenlerdeki açı değişimleri bileşiktir; kron açısı gerçek kök torkunun yerine geçmez.","kanit":"muhendislik_ihtiyati","kaynaklar":["K01","K02"]},
+  {"hareketler":["tip","intruzyon"],"durum":"uzman_incelemesi","gerekce":"Dişin referans noktası değişimi gerçek intrüzyondan ayrılmalı; devrilmeye bağlı görünür dikey değişim dışlanmalı.","kanit":"biyomekanik_cikarim","kaynaklar":["K07"]},
+  {"hareketler":["tork","intruzyon"],"durum":"uzman_incelemesi","gerekce":"Dikey kontrol ile kök kontrolü birlikte hasta özelinde değerlendirilmelidir; genel bir güvenli oran yoktur.","kanit":"dolayli_sonlu_eleman","kaynaklar":["K06","K07"]}
+]

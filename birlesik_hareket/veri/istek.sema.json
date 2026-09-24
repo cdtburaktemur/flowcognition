@@ -1,0 +1,219 @@
+{
+  "type": "object",
+  "properties": {
+    "sozlesme_surumu": {
+      "const": "1.0"
+    },
+    "asama_kimligi": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "\\S"
+    },
+    "koordinat_sistemi": {
+      "const": "dis_yerel_klinik_v1"
+    },
+    "baglam": {
+      "type": "object",
+      "properties": {
+        "tam_ark": {
+          "type": "boolean"
+        },
+        "ankraj": {
+          "type": "string",
+          "enum": [
+            "uygun",
+            "yetersiz",
+            "bilinmiyor"
+          ]
+        },
+        "plak_oturmasi": {
+          "type": "string",
+          "enum": [
+            "uygun",
+            "uyumsuz",
+            "bilinmiyor"
+          ]
+        },
+        "kok_degerlendirmesi": {
+          "type": "string",
+          "enum": [
+            "uygun",
+            "yetersiz",
+            "bilinmiyor"
+          ]
+        },
+        "materyal_protokolu": {
+          "type": "string",
+          "enum": [
+            "uygun",
+            "yetersiz",
+            "bilinmiyor"
+          ]
+        },
+        "cekimli_vaka": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "tam_ark",
+        "ankraj",
+        "plak_oturmasi",
+        "kok_degerlendirmesi",
+        "materyal_protokolu",
+        "cekimli_vaka"
+      ],
+      "additionalProperties": false
+    },
+    "disler": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "items": {
+        "type": "object",
+        "properties": {
+          "fdi": {
+            "type": "integer",
+            "enum": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48
+            ]
+          },
+          "hareket": {
+            "type": "object",
+            "properties": {
+              "otelemenin_mesial_bileseni_mm": {
+                "type": "number",
+                "minimum": -10,
+                "maximum": 10
+              },
+              "otelemenin_bukkal_bileseni_mm": {
+                "type": "number",
+                "minimum": -10,
+                "maximum": 10
+              },
+              "rotasyon_derece": {
+                "type": "number",
+                "minimum": -45,
+                "maximum": 45
+              },
+              "tip_derece": {
+                "type": "number",
+                "minimum": -45,
+                "maximum": 45
+              },
+              "tork_derece": {
+                "type": "number",
+                "minimum": -45,
+                "maximum": 45
+              },
+              "intruzyon_mm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 5
+              }
+            },
+            "required": [
+              "otelemenin_mesial_bileseni_mm",
+              "otelemenin_bukkal_bileseni_mm",
+              "rotasyon_derece",
+              "tip_derece",
+              "tork_derece",
+              "intruzyon_mm"
+            ],
+            "additionalProperties": false
+          },
+          "periodontal": {
+            "type": "string",
+            "enum": [
+              "normal",
+              "azalmis_destek",
+              "aktif_hastalik",
+              "bilinmiyor"
+            ]
+          },
+          "kok_kemik": {
+            "type": "string",
+            "enum": [
+              "uygun",
+              "riskli",
+              "bilinmiyor"
+            ]
+          },
+          "temas_yolu": {
+            "type": "string",
+            "enum": [
+              "uygun",
+              "riskli",
+              "bilinmiyor"
+            ]
+          },
+          "atasman": {
+            "type": "string",
+            "enum": [
+              "planli",
+              "yok",
+              "bilinmiyor"
+            ]
+          },
+          "toplam_rotasyon_derece": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 180
+          }
+        },
+        "required": [
+          "fdi",
+          "hareket",
+          "periodontal",
+          "kok_kemik",
+          "temas_yolu",
+          "atasman",
+          "toplam_rotasyon_derece"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "sozlesme_surumu",
+    "asama_kimligi",
+    "koordinat_sistemi",
+    "baglam",
+    "disler"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Birleşik hareket aşama isteği",
+  "$comment": "FDI tekilliği, tek çene ve toplam rotasyon tutarlılığı ayrıca çalışma anında doğrulanır."
+}

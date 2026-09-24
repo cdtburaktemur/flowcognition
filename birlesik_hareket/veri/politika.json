@@ -1,0 +1,17 @@
+{
+  "kimlik": "arastirma-muhafazakar-1",
+  "surum": "1.0.0",
+  "klinik_dogrulama": false,
+  "aciklama": "Mühendislik tarama eşikleri; biyolojik güvenlik sınırı veya tedavi reçetesi değildir.",
+  "sinirlar": {
+    "otelemenin_buyuklugu_mm": 0.2,
+    "rotasyon_derece": 1.0,
+    "tip_derece": 1.0,
+    "tork_derece": 1.0,
+    "intruzyon_mm": 0.15,
+    "dogrusal_bileske_mm": 0.25,
+    "birlesik_talep": 1.0
+  },
+  "esik_kokeni": "0.25 mm, 1 derece ve 2 derece literatürde bildirilen protokol değerleridir; güvenlik sınırı değildir. 0.2 mm, 0.15 mm, 1 derece rotasyon ve normalize kareler toplamı eşiği bu yazılımın doğrulanmamış ihtiyat politikasıdır.",
+  "kaynaklar": ["K01", "K03", "K04"]
+}

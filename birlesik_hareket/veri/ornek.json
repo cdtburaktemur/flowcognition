@@ -1,0 +1,239 @@
+{
+  "sozlesme_surumu": "1.0",
+  "asama_kimligi": "sentetik-asama-01",
+  "koordinat_sistemi": "dis_yerel_klinik_v1",
+  "baglam": {
+    "tam_ark": true,
+    "ankraj": "uygun",
+    "plak_oturmasi": "uygun",
+    "kok_degerlendirmesi": "uygun",
+    "materyal_protokolu": "uygun",
+    "cekimli_vaka": false
+  },
+  "disler": [
+    {
+      "fdi": 11,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 12,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 13,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 14,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 15,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 16,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": -0.1,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0.4,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "planli",
+      "toplam_rotasyon_derece": 8
+    },
+    {
+      "fdi": 17,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 21,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 22,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 23,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 24,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 25,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 26,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    },
+    {
+      "fdi": 27,
+      "hareket": {
+        "otelemenin_mesial_bileseni_mm": 0,
+        "otelemenin_bukkal_bileseni_mm": 0,
+        "rotasyon_derece": 0,
+        "tip_derece": 0,
+        "tork_derece": 0,
+        "intruzyon_mm": 0
+      },
+      "periodontal": "normal",
+      "kok_kemik": "uygun",
+      "temas_yolu": "uygun",
+      "atasman": "yok",
+      "toplam_rotasyon_derece": 0
+    }
+  ]
+}

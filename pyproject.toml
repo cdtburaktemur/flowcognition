@@ -1,0 +1,26 @@
+# © 2026 FlowCognition by suvilab.com — Tüm hakları saklıdır.
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowcognition"
+version = "0.1.0"
+description = "2026 FlowCognition by suvilab.com — Şeffaf plak CAD sistemleri için birleşik hareket karar desteği"
+authors = [{name = "Suvilab"}]
+requires-python = ">=3.11"
+license = "LicenseRef-Ozel-Yazilim"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.urls]
+"Kurumsal" = "https://suvilab.com"
+
+[project.scripts]
+birlesik-hareket = "birlesik_hareket.komut:calistir"
+
+[tool.setuptools.package-data]
+birlesik_hareket = ["veri/*.json", "arayuz/*.html", "arayuz/*.css", "arayuz/*.js"]
+
+[tool.setuptools.packages.find]
+include = ["birlesik_hareket*"]

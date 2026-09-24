@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- © 2026 FlowCognition by suvilab.com — Tüm hakları saklıdır. -->
+<html lang="tr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>FlowCognition by suvilab.com · Birleşik hareket</title><link rel="stylesheet" href="/gorunum.css"><script src="/uygulama.js" defer></script></head>
+<body>
+<header><a href="/" class="marka">FlowCognition<span>by suvilab.com · HAREKET LABORATUVARI</span></a><span class="etiket">Özel yazılım · 0.1.0</span></header>
+<main>
+<section class="giris"><p class="ustbaslik">ŞEFFAF PLAK / AŞAMA DEĞERLENDİRMESİ</p><h1>Hareketleri birlikte düşünün.</h1><p>Öteleme, rotasyon, tip, tork ve intrüzyon için kaynakları izlenebilir karar desteği.</p><aside> Araştırma sürümü. Hiçbir sonuç klinik güvenlik onayı değildir. Hasta özelindeki son karar ortodontiste aittir.</aside></section>
+<div class="duzen">
+<section class="kart"><div class="baslik"><h2>Aşama girdisi</h2><button id="ornek" type="button" class="ikincil">Sentetik örnek yükle</button></div><p>Tek çeneye ait tüm mevcut dişleri, pasif dişler dahil gönderin. Örnekteki klinik durumlar temsili olarak doldurulmuştur.</p>
+<label for="dis">Diş üzerinde hızlı düzenleme</label><select id="dis"></select><div id="alanlar" class="alanlar"></div>
+<details><summary>CAD girdisi ve klinik bağlam · JSON</summary><label for="girdi">Aşama verisi</label><textarea id="girdi" spellcheck="false" rows="18"></textarea><button id="aktar" class="ikincil" type="button">JSON değişikliklerini forma aktar</button></details>
+<button id="degerlendir" type="button">Birleşik hareketi değerlendir →</button><p id="hata" role="alert"></p></section>
+<section class="kart sonuc"><div class="baslik"><h2>Değerlendirme</h2><button id="indir" class="ikincil" type="button" disabled>JSON indir</button></div><div id="sonuc" aria-live="polite"><p>Bir aşama değerlendirdiğinizde gerekçeler ve kaynaklar burada görünür.</p></div></section>
+</div>
+<section class="kart"><h2>Hareket çiftleri</h2><p>Bu tablo genel başlangıç kurallarını gösterir. Diş tipi, yön, miktar ve ark bulguları sonucu değiştirebilir.</p><div class="tablokaydir"><table><thead><tr><th>Birleşim</th><th>Başlangıç yaklaşımı</th><th>Dayanak</th></tr></thead><tbody id="ciftler"></tbody></table></div></section>
+<section class="kart"><h2>Araştırma kaynakları</h2><p>Son tarama: 25 Eylül 2026. Seçilmiş yayınlar; eksiksiz literatür taraması iddiası taşımaz.</p><div id="kaynaklar" class="kaynaklar"></div></section>
+</main><footer>© 2026 FlowCognition by suvilab.com · Açık kaynak değildir. Hak sahibinin yazılı izni olmadan kullanılamaz.</footer>
+</body></html>
